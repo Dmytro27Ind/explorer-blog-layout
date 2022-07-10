@@ -1,5 +1,5 @@
 # Explorer Blog Layout
-This is a website that I made according to the https://www.figma.com/file/L2p3IVX9aPtVMMDpeUV3Ks/Explorer?node-id=0%3A1 layout. The goal was to practice writing websites according to the layout.
+This is a website that I made according to the [Explorer](https://www.figma.com/file/L2p3IVX9aPtVMMDpeUV3Ks/Explorer?node-id=0%3A1) layout. The goal was to practice writing websites according to the layout.
 
 ## Technologies
 - **HTML/CSS**
