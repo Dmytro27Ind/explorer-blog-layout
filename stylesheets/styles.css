@@ -122,6 +122,10 @@ header a{
 }
 .post__container{
     height: 511px;
+    transition: 150ms ease-in-out;
+}
+.post__container:hover{
+    transform: scale(1.02);
 }
 .post__header{
     background-repeat: no-repeat;
@@ -139,16 +143,16 @@ header a{
     background-image: url("../img/img_3.jpg");
 }
 .post-tag__container{
+    display: flex;
     height: 45px;
+    padding-top: 1px;
+    justify-content: end;
 }
 .post__tag{
     height: 25px;
-    width: 60px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
-    position: relative;
-    left: 720px;
-    top: 18px;
+    /* margin-left: auto; */
+    margin-right: 20px;
+    margin-top: 18px;
 }
 .post__tag > p{
     height: 24px;
@@ -159,6 +163,10 @@ header a{
     color: #FFFFFF;
     margin: 0 0;
     text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0 10px;
 }
 .post-header__content{
     position: relative;
@@ -308,6 +316,10 @@ header a{
 }
 .second-section__posts > .post{
     width: 300px;
+    transition: 150ms ease-in-out;
+}
+.second-section__posts .post:hover{
+    transform: scale(1.1);
 }
 .second-section__posts > .post > .post__header{
     height: 190px;
@@ -365,6 +377,7 @@ footer .first-line{
 footer .second-line{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 footer .first-line > .copyright{
     font-family: 'Lato';
