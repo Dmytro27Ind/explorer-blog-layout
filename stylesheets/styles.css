@@ -64,7 +64,7 @@ header{
     height: 238px;
     width: 100%;
 }
-main{
+.main{
     height: 1741px;
     width: 100%;
 }
@@ -72,7 +72,7 @@ main{
 .second-section{
     height: 498px;
     width: 100%;
-    padding-top: 90px;
+    padding-top: 85px;
     padding-bottom: 90px;
 }
 .second-section > .container{
@@ -191,9 +191,13 @@ header a{
     width: 490px;
     height: 70px;
     margin-top: 20px;
+}
+.post-header__title > h2{
     font-size: 28px;
     line-height: 35px;
     color: #FFFFFF;
+    font-weight: 300;
+    margin: 0 0;
 }
 .post-author{
     font-size: 18px;
@@ -270,12 +274,13 @@ header a{
 .read-more__button:hover{
     background: #7b44bd;
 }
-.second-section__title{
+.second-section__title > h2{
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     color: #333333;
+    margin: 0 0;
 }
 .second-section__text{
     font-family: 'Lato';
